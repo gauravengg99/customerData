@@ -1,0 +1,27 @@
+{
+  "name": "customerdata",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "db:generate": "npx drizzle-kit generate",
+    "db:migrate": "node ./db/migrate.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@neondatabase/serverless": "^1.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "drizzle-orm": "^0.43.1",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.14",
+    "drizzle-kit": "^0.31.1",
+    "prisma": "^6.7.0"
+  }
+}
